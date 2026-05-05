@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chewy', cursive;
+    margin: 40px;
+    background-image: url("school.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    width: 300px;
+    margin: 100px 0 0 50px;   
+    padding: 20px;
+    background-color: rgba(255, 182, 193, 0.9);
+    border-radius: 20px;
+    text-align: left;   
+}
+
+h2 {
+    font-family: 'Chewy', cursive;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+
+    background-color: hotpink;
+    color: white;
+
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: deeppink;
+}
+
+
+.submit-btn {
+    display: block;
+    width: 100%;              
+    padding: 10px;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Chewy', cursive;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: deeppink;
+}
+
+.back-btn {
+    display: block;         
+    width: 150px;             
+    margin: 10px 0 10px 50px; 
+    padding: 10px;
+    background-color: #e91e63;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+    font-family: 'Chewy', cursive;
+}
+
+.back-btn:hover {
+   background-color: #c2185b;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}

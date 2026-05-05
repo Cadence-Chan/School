@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chewy', cursive;
+    margin: 100px;
+
+    background-image: url("intake.jpg"); 
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 182, 193, 0.9);
+    border-radius: 20px;
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Chewy', cursive;
+}
+
+.submit-btn:hover {
+    background-color: deeppink;
+}
+
+.intake-list {
+    width: 600px;
+    background-color: rgba(255, 182, 193, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 10px 15px;
+    background-color: #e28da9;
+    color: black;
+    font-size: 18px;
+}
+
+    td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #c2185b;
+}
+
+tr:hover {
+    background-color: rgba(255, 105, 180, 0.3);
+}
+
+.back-btn {
+    display: block;         
+    width: 150px;             
+    margin: 10px 0 10px 50px; 
+    padding: 10px;
+    background-color: #e91e63;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+    font-family: 'Chewy', cursive;
+}
+
+.back-btn:hover {
+   background-color: #c2185b;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}

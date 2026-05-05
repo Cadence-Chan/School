@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chewy', cursive;
+    margin: 60px;
+
+    background-image: url("user.jpg"); 
+    background-size: cover;
+    background-position: center;
+}
+
+
+form {
+    width: 300px;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: rgba(255, 182, 193, 0.9);
+    border-radius: 20px;
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.password-msg {
+  font-size: 12px;
+  color: #c2185b;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.hint {
+    font-size: 12px;
+    color: #c2185b;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: deeppink;
+}
+
+.back-btn {
+    display: block;         
+    width: 150px;             
+    margin: 10px 0 10px 50px; 
+    padding: 10px;
+    background-color: #e91e63;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+    font-family: 'Chewy', cursive;
+}
+
+.back-btn:hover {
+   background-color: #c2185b;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}

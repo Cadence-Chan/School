@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+
+    <link rel="icon" href="uniform.png">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+
+<form>
+    <h2>User Registration</h2>
+
+    <label>Username</label>
+    <input type="text" placeholder="Enter Username" required>
+
+    <label>Password</label>
+    <input type="password" placeholder="Enter Password" id="password" pattern=".{6,}" required>
+
+    <small class="password-msg">Password must be at least 6 characters</small>
+
+    <label>User Type</label>
+    <select required>
+        <option value="">Select Type</option>
+        <option>Admin</option>
+        <option>Staff</option>
+        <option>Student</option>
+    </select>
+
+    <button type="submit" class="submit-btn">Register</button>
+</form>
+
+<a href="index.html" class="back-btn">← Back to Home</a>
+
+<br><br><br><br>
+
+<footer>
+    <p>© 2026 School Information System</p>
+    <p>Background image source: <a href="https://yanderesimulator.com/" target="_blank">https://yanderesimulator.com/</a></p>
+</footer>
+
+
+</body>
+</html>
